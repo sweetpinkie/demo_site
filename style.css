@@ -1,0 +1,45 @@
+*{
+  background-color: #0CBABA;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+width: 100vw;
+height: 100vh;
+}
+
+.top_bar{
+width:100vw;
+height:13vh;
+background-color: #26081C;
+display: flex;
+justify-content: space-between;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  background-color: #26081C;
+}
+
+.header{
+  color: chocolate;
+  font-size: 50px;
+  font-family: fantasy;
+  margin: 15px;
+  background-color: #26081C;
+  cursor: pointer;
+}
+
+.sign-in{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 45vw;
+  height: 45vh;
+  border: 10px solid white;
+  border-radius: 15px;
+}
