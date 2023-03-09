@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-<div class="container">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="top_bar">
+      <div class="website_name header"> site name</div>
+      <div class="flex">
+        <div class="login header">login</div>
+        <div class="information header">information</div>
+        <div class="contact header">contact</div>
+      </div>
+    </div>
+    <div class="sign-in-container">
+
+      <div class="sign-in">
+        <img id="img" alt="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="">
+        <input type="button" value="submit">
+      </div>
+
+    </div>
+
+    <div class="photos">
+      <div class="sliders">
+        <img class="photo" src="https://source.unsplash.com/random/1" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/2" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/3" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/4" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/5" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/6" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/7" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/8" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/9" alt="" srcset="">
+        <img class="photo" src="https://source.unsplash.com/random/10" alt="" srcset="">
+        
+      </div>
+
+    </div>
+
+    <div class="footer">
+      
+    </div>
 
 
-<div class="top_bar">
-
-  <div class="website_name header">site name</div>
-
-  <div class="flex">
-    <div class="login header">login</div>
-    <div class="information header">information</div>
-    <div class="contact header">contact</div>
   </div>
-</div>
+  <script type="module" src="/main.js"></script>
+</body>
 
-<div class="sign-in"></div>
-
-</div>
-
-
-
-
-<script type="module" src="/main.js"></script>
-  </body>
 </html>
